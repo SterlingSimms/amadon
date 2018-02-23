@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reciept</title>
+</head>
+<body>
+    <h2>Thank you for your business!</h2>
+    <h4>We charged your credit card for ${{ request.session.price }}</h4>
+    <p>You have ordered {{ request.session.quantity }} items so far</p>
+    <p>and spent ${{ request.session.total }} with Amadon.com!</p>
+</body>
+</html>
